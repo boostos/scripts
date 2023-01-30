@@ -1,0 +1,14 @@
+// basic test script
+
+writeln Hello, World!
+writeln This is a test script for Boost OS.
+
+console color red
+
+writeln This text should be red.
+
+console reset
+
+$test = ?get Type something...
+
+writeln You typed: $test
